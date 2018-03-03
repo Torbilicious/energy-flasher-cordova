@@ -12,3 +12,16 @@
     font-size: 350%;
 }
 
+#input-group {
+    margin: 3%;
+    text-align: center;
+}
+
+#number-input {
+    width: 50%;
+}
+
+#start-flashing-button {
+    width: 30%;
+}
+
