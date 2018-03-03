@@ -20,11 +20,31 @@ class App {
 }
 
 function activateFlash() {
-    console.log("activateFlash")
+    console.log("activateFlash");
+
+    window.plugins.flashlight.available(function (isAvailable) {
+        if (!isAvailable) return;
+
+        window.plugins.flashlight.switchOn(
+            function () {
+                // optional success callback
+            },
+            function () {
+                // optional error callback
+            },
+            {intensity: 1} // optional as well
+        );
+    });
 }
 
 function stopFlash() {
-    console.log("stopFlash")
+    console.log("stopFlash");
+
+    window.plugins.flashlight.available(function (isAvailable) {
+        if (!isAvailable) return;
+
+        window.plugins.flashlight.switchOff();
+    });
 }
 
 
