@@ -1,0 +1,4 @@
+#Sun Mar 04 13:00:42 CET 2018
+base.0=/Volumes/Secured/Projects/private/energy-flasher-cordova/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
